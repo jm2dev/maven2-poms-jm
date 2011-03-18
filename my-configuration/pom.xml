@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.jm2dev</groupId>
+  <artifactId>my-configuration</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>my-configuration</name>
+  <url>http://maven.apache.org</url>
+  <description>Simple Java application to test external configurations.</description>
+  <organization>
+    <name>jm2dev</name>
+    <url>http://www.jm2dev.com</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>jose.miguel</id>
+      <name>Jose Miguel</name>
+      <email>email@example.com</email>
+      <url>http://www.jm2dev.com</url>
+      <organization>jm2dev</organization>
+      <organizationUrl>http://www.jm2dev.com</organizationUrl>
+      <roles>
+	<role>Developer</role>
+      </roles>
+      <timezone>+0</timezone>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>1.6</java.version>
+  </properties>
+
+  <dependencies>
+    <!-- testing framework -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>5.14.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>${artifactId}</finalName>
+    <plugins>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-compiler-plugin</artifactId>
+	<version>2.0.2</version>
+	<configuration>
+	  <source>${java.version}</source>
+	  <target>${java.version}</target>
+	</configuration>
+      </plugin>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-surefire-plugin</artifactId>
+	<version>2.6</version>
+	<configuration>
+	  <suiteXmlFiles>
+	    <suiteXmlFile>testng.xml</suiteXmlFile>
+	  </suiteXmlFiles>
+	</configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
