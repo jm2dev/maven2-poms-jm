@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en">
+  <info>
+    <title>Simple chunked docbook 5 document</title>
+    <copyright>
+      <year>2011</year>
+      <holder>jm2dev</holder>
+    </copyright>
+
+    <authorgroup>
+      <author>
+	<personname>
+	  <firstname>José Miguel</firstname>
+	  <surname>Martínez Carrasco</surname>
+	  <email>jm2dev@gmail.com</email>
+	</personname>
+	<affiliation>
+	  <orgname>jm2dev</orgname>
+	  <orgdiv>DocBook Team</orgdiv>
+	  <jobtitle>Developer</jobtitle>
+	</affiliation>
+      </author>
+    </authorgroup>
+  </info>
+
+  <revhistory>   
+    <revision>
+      <revnumber>0.1</revnumber>
+      <date>17 Jul 20101</date>
+      <authorinitials>José Miguel Martínez Carrasco</authorinitials>
+      <revremark>Initial draft.</revremark>
+    </revision>
+  </revhistory>
+
+  <!-- overview -->
+  <xi:include href="sections/overview.xml" parse="xml" />
+
+  <!-- dummy text -->
+  <xi:include href="sections/loremipsum.xml" parse="xml" />
+
+  <!-- external file as text -->
+  <xi:include href="sections/exfile.xml" parse="xml" />
+
+  <!-- bibliography -->
+  <xi:include href="bibliography.xml" parse="xml" />
+</article>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en"
+	 id="lipsum">
+
+    <title>Dummy text</title>
+
+    <para>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin commodo, ante vitae mollis suscipit, erat augue mattis ipsum, vitae feugiat ipsum ipsum lobortis orci. Nulla vestibulum luctus augue, a accumsan arcu porttitor sit amet. Aliquam ac turpis magna, id bibendum felis. Sed quis quam ac ante rutrum rutrum tempor a elit. Maecenas elit purus, ultricies sed congue at, pulvinar eget elit. Donec accumsan, nisi vitae iaculis mattis, orci neque pulvinar nisi, in tristique est dui nec magna. Nulla dignissim dapibus orci, ac accumsan nisi scelerisque vehicula. Pellentesque id facilisis urna. Nulla purus est, sodales vehicula adipiscing id, rhoncus sit amet diam. Aenean tortor justo, aliquet at commodo quis, sollicitudin at mi. Nulla faucibus elementum nisi, eget dapibus nibh ultricies sit amet.
+    </para>
+    
+    <para>
+Quisque sollicitudin leo sed arcu consequat vel vehicula odio venenatis. Phasellus vel vehicula nibh. Mauris molestie feugiat rutrum. Integer rutrum suscipit orci eget placerat. Etiam viverra nibh a lacus euismod pharetra. Aliquam erat volutpat. Vestibulum interdum laoreet orci, eget luctus metus luctus quis. Etiam consectetur ultrices facilisis. Ut bibendum justo ut sem convallis mollis. Aliquam ut urna vitae urna tristique luctus sed a tortor. Maecenas fringilla eros id dui dictum tempor. Praesent massa leo, euismod vitae vestibulum ac, elementum ullamcorper ante. Donec a ullamcorper eros. Vivamus tristique sollicitudin ante, feugiat placerat erat pellentesque eu. Nunc neque velit, adipiscing non ultrices eu, rhoncus ac lectus. Donec sapien neque, laoreet commodo vulputate in, posuere a elit. Praesent molestie commodo vulputate. Sed sagittis dolor viverra risus consequat feugiat.
+    </para>
+
+    <para>
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam orci enim, ultrices vel viverra ac, sollicitudin id velit. Nunc hendrerit tempus placerat. Pellentesque mattis nulla ac sapien gravida posuere. Proin augue libero, mattis eget consequat eu, vehicula et lectus. Suspendisse id nisl metus. Duis eu vehicula justo. Aliquam sed libero vel purus semper eleifend et in dolor. Duis tincidunt ultricies ligula ornare hendrerit. Sed eget risus risus, in tincidunt dolor. Maecenas ut dolor ipsum, a suscipit nibh. Duis semper lacinia dignissim. Nam mollis luctus dui eget posuere. Aliquam pulvinar, augue in varius tempor, erat orci elementum nibh, a imperdiet lorem felis at enim. Donec vehicula euismod dui et ultrices. Cras pulvinar velit vitae leo adipiscing ornare. Vestibulum nulla neque, lobortis ac interdum a, pharetra eu purus. Pellentesque laoreet consequat nisl quis venenatis. Nulla ut massa lacus.
+    </para>
+
+    <para>
+Mauris nibh nulla, lacinia in semper at, imperdiet vel erat. Mauris orci orci, feugiat a lacinia porta, semper et nisi. Sed facilisis, sapien sed accumsan cursus, enim nisl rutrum quam, eget semper neque felis nec dui. Donec molestie varius risus, vitae tempus tortor egestas sit amet. Vestibulum a ornare mi. Suspendisse posuere semper leo, ut vehicula lorem tempor quis. In at elementum diam. Nunc commodo euismod quam, et aliquet ante mollis adipiscing. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pulvinar, felis id vestibulum dapibus, leo mauris euismod ipsum, ac feugiat dui neque in odio. Quisque nisl lectus, condimentum sit amet adipiscing vitae, posuere in purus. Sed a lectus sit amet odio molestie cursus sed eget nulla. Morbi mollis nisi id nunc volutpat at euismod elit egestas. Sed et nibh est, nec consectetur magna.
+    </para>
+
+    <para>
+Nulla facilisi. Nullam placerat convallis nunc ultrices convallis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent pellentesque accumsan sapien. Mauris semper lorem purus, nec scelerisque arcu. Nullam tempus pharetra sapien quis varius. Fusce lacus lectus, aliquet sed tincidunt sit amet, fringilla sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin lobortis dui eu mauris porta commodo. Phasellus et quam vel leo venenatis ullamcorper. Nunc in quam elit, sed suscipit odio. Fusce pharetra interdum libero eu convallis. Phasellus adipiscing nisi sed nibh egestas consectetur. Vivamus urna arcu, sodales at faucibus non, pharetra fringilla neque. Quisque odio massa, dictum id varius vel, sagittis gravida dolor.
+    </para>
+
+    <para>
+      All the previous paragraphs are generated using <citation>lipsum</citation>.
+    </para>
+</section>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bibliography xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en"
+	 id="bibliography">
+
+  <title>References</title>
+
+  <bibliodiv>
+    <title>Web sites</title>
+
+    <biblioentry xreflabel="lipsum">
+      <title>Lorem Ipsum generator</title>
+      <bibliosource>
+        <ulink url="http://lipsum.lipsum.com/" />
+      </bibliosource>
+    </biblioentry>
+
+    <biblioentry xreflabel="docbkxcode">
+      <title>Docbkx plugin repository</title>
+      <bibliosource>
+	<ulink url="http://code.google.com/p/docbkx-tools/" />
+      </bibliosource>
+    </biblioentry>
+
+    <biblioentry xreflabel="docbkxdoc">
+      <title>Docbkx documentation</title>
+      <bibliosource>
+	<ulink url="http://docbkx-tools.sourceforge.net/docbkx-maven-plugin/plugin-info.html" />
+      </bibliosource>
+    </biblioentry>
+
+    <biblioentry xreflabel="jm2devgihub">
+      <title>Project's github page</title>
+      <bibliosource>
+	<ulink url="https://github.com/jm2dev/maven2-poms-jm" />
+      </bibliosource>
+    </biblioentry>   
+  </bibliodiv>
+</bibliography>

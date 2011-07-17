@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en"
+	 id="overview">
+
+    <title>Overview</title>
+
+    <para>
+      This is a simple project to illustrate the generation of documentation from DocBook5 sources using maven.
+    </para>
+
+    <section>
+      <title>Requisites</title>
+
+      <itemizedlist>
+	<listitem>
+	  <para>maven 3</para>
+	</listitem>
+	<listitem>
+	  <para>openjdk 7</para>
+	</listitem>
+      </itemizedlist>
+
+      <para>
+        Although it is supposed to work with maven2 and any java sdk newer than 1.4.
+      </para>
+    </section>
+
+    <section>
+      <title>Usage</title>
+
+      <para>
+        Check docbkx documentation for additional goals <citation>docbkxdoc</citation>.
+      </para>
+
+      <programlisting>
+        $ mvn docbkx:generate-html // generate output
+        $ xdg-open target/docbkx/html/article/article.html // default browser displays output
+      </programlisting>
+    </section>
+</section>

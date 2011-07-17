@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xmlns="http://docbook.org/ns/docbook" 
+	 xmlns:xi="http://www.w3.org/2001/XInclude" 
+	 version="5.0" 
+	 xml:lang="en"
+	 id="externalfiledummytext">
+
+  <title>Dummy text from external file</title>
+
+  <para>
+    Sample file is included.
+  </para>
+  
+  <programlisting>
+    <xi:include href="../files/sample.xml" parse="text" />
+  </programlisting>
+</section>
+
